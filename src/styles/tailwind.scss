@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+@tailwind utilities;
+
+/* purgecss start ignore */
+html {
+  @apply antialiased bg-yellow-200;
+}
+html,
+input,
+button {
+  @apply font-sans;
+}
